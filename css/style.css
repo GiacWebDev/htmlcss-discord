@@ -10,6 +10,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+html {
+  font-size: 18px;
+}
+
 /* aggiungere QUI max-widht 1200px e width 90% */
 main {
   margin: auto;
@@ -28,16 +32,20 @@ main {
 }
 
 .btn {
-  padding: 7px 15px;
-  border-radius: 20px;
+  padding: 12px 17px;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
 }
 
 .btn-bianco {
   background-color: white;
+  color: #23272A;
 }
 
 .btn-nero {
   background-color: #23272A;
+  color: white;
 }
 
 .btn-lilla {
@@ -77,8 +85,9 @@ header {
 
 /* MAIN */
 
+/* info generali */
+
 main .sec {
-  /* display: flex; */
   padding: 30px 0;
 }
 
@@ -95,18 +104,33 @@ main .container {
 }
 
 /* prima sezione  */
+main .hero {
+  text-align: center;
+}
 
-main .sec.blue {
-  background-color: blue;
+main .sec.hero {
+  background-image: url("/img/jumbo.png");
+  background-size: cover;
 }
 
 main .first-info-box {
-  background-color: #EF82EE;
   width: 70%;
   max-width: 900px;
+  padding: 60px 80px;
   margin: auto;
-  height: 300px;
+  height: 450px;
   align-items: center;
+  color: white;
+  line-height: 30px;
+}
+
+main .first-info-box h1 {
+  font-size: 2.5rem;
+  padding: 50px 0;
+}
+
+main .hero-btn-row {
+  padding: 30px 0;
 }
 
 /* seconda sezione  */
@@ -121,6 +145,10 @@ main .box-white .space-left {
   background-color: #1E90FF;
   width: 60%;
   height: 300px;
+}
+
+main .btn-bianco {
+  margin-right: 20px;
 }
 
 /* terza sezione */
