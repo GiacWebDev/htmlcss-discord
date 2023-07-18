@@ -55,7 +55,6 @@ main {
   color: white;
 }
 
-
 /* Header */
 
 header {
@@ -182,7 +181,12 @@ main .big-box {
   max-width: 1200px;
   margin: auto;
   text-align: center;
-  }
+}
+
+main .big-bottom img {
+  margin-bottom: -30px;
+  width: 600px;
+}
 
 main .big-top {
   text-align: center;
