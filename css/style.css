@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 /* aggiungere QUI max-widht 1200px e width 90% */
 main {
   margin: auto;
@@ -23,39 +27,52 @@ main {
   display: flex;
 }
 
+.btn {
+  padding: 7px 15px;
+  border-radius: 20px;
+}
+
+.btn-bianco {
+  background-color: white;
+}
+
+.btn-nero {
+  background-color: #23272A;
+}
+
+.btn-lilla {
+  background-color: #7289DB;
+}
+
+
 /* Header */
 
 header {
-  background-color: #AED8E6;
+  background-color: #255EEA;
   padding: 10px 0px;
 }
 
 /* ha un clearfix perche la sua altezza dipenderà dal contenuto al suo interno */
 .main-bar {
-  background-color: #DAA520;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 50px;
-  width: 80%;
+  width: 95%;
   max-width: 1200px;
   margin: auto;
-  display: flex;
+  padding: 0 10px;
 }
 
-.top-logo {
-  width: 20%;
-  height: 50px;
+.top-menu li {
+  display: inline-block;
+  list-style: none;
 }
 
-.top-nav {
-  width: 60%;
-}
-
-.top-cta {
-  height: 50px;
-  width: 20%;
-}
-
-.top-logo, .top-nav {
-  border-right: 1px solid black;
+.top-menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
 }
 
 /* MAIN */
@@ -66,7 +83,7 @@ main .sec {
 }
 
 main .container {
-  width: 80%;
+  width: 95%;
   max-width: 1200px;
   margin: auto;
   height: 300px;
@@ -129,7 +146,7 @@ main .box-gray .space-left {
 
 /* quinta sezione (piu grande) */
 main .box-green {
-  width: 80%;
+  width: 95%;
   max-width: 1200px;
   height: 500px;
   background-color: green;
@@ -144,7 +161,7 @@ footer {
 }
   
 footer .column {
-  width: 80%;
+  width: 95%;
   margin: auto;
   max-width: 1200px;
   height: 300px;
@@ -176,7 +193,7 @@ footer .col-left {
 }
 
 .info-copy {
-  width: 80%;
+  width: 95%;
   margin: auto;
   max-width: 1200px;
   display: flex;
