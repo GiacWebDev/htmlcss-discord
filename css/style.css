@@ -54,6 +54,7 @@ main {
 
 .btn-lilla {
   background-color: #7289DB;
+  color: white;
 }
 
 
@@ -177,13 +178,29 @@ main .box-gray .space-left {
 /* la quarta sezione è identica alla seconda */
 
 /* quinta sezione (piu grande) */
-main .box-green {
+main .big-box {
   width: 95%;
   max-width: 1200px;
-  height: 500px;
-  background-color: green;
   margin: auto;
+  text-align: center;
   }
+
+main .big-top {
+  text-align: center;
+}
+
+main .big-top img{
+  width: 100%;
+}
+
+main .big-bottom h3 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+
+.big-bottom img {
+}
 
 /* Footer */
 footer {
