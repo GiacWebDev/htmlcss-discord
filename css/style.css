@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* aggiungere QUI max-widht 1200px e width 90% */
@@ -62,6 +62,7 @@ main {
 header {
   background-color: #255EEA;
   padding: 10px 0px;
+  font-size: 0.7rem;
 }
 
 /* ha un clearfix perche la sua altezza dipenderà dal contenuto al suo interno */
@@ -118,12 +119,12 @@ main .first-info-box {
   flex-direction: column;
   width: 70%;
   max-width: 900px;
-  padding: 00px 80px;
   margin: auto;
   justify-content: center;
   height: 450px;
   color: white;
   line-height: 30px;
+  font-size: 0.9rem;
 }
 
 main .first-info-box h1 {
@@ -135,11 +136,14 @@ main .hero-btn-row {
   padding: 30px 0;
 }
 
+main .btn-bianco {
+  margin-right: 20px;
+}
+
 /* seconda sezione  */
 
 main .box-white .space-left {
   width: 60%;
-  justify-content: center;
 }
 
 main .box-white .space-right {
@@ -148,34 +152,26 @@ main .box-white .space-right {
 
 main h2 {
   font-size: 2.5rem;
-  padding: 20px 95px 20px 0;
+  padding: 20px 0px 20px 0;
 } 
 
-main p {
+/* main p {
   padding: 5px 95px 20px 0;
-}
-
-main .btn-bianco {
-  margin-right: 20px;
-}
+} */
 
 /* terza sezione */
 
 /* background che serve come riferimento struttura */
 main .gray.sec {
-  background-color: lightgray;
+  background-color: #F6F6F6;
 }
 
 main .box-gray .space-right {
-  background-color: #1E90FF;
   width: 60%;
-  height: 300px;
 }
 
 main .box-gray .space-left {
-  background-color: #FFC1CC;
   width: 40%;
-  height: 300px;
 }
 
 /* la quarta sezione è identica alla seconda */
