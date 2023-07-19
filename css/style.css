@@ -138,6 +138,10 @@ main .btn-bianco {
   margin-right: 20px;
 }
 
+main .btn-nero{
+  display: inline-block;
+}
+
 /* seconda sezione  */
 
 main .box-white .space-left {
@@ -231,6 +235,11 @@ footer .col-right{
   display: flex;
 }
 
+footer .col-right{
+  width: 80%;
+  display: flex;
+}
+
 footer .col-left h3{
   font-size: 1.5rem;
   color: #7289DB;
@@ -255,8 +264,9 @@ footer .lingua i {
   width: 20px;
 }
 
-footer .social i {
+footer .social li {
   margin: 0px 5px;
+  display: inline;
 }
 
 footer li {
@@ -265,7 +275,7 @@ footer li {
   margin-bottom: 10px;
 }
 
-footer li:first-child {
+footer .column .col-right li:first-child {
   color: #7289DB;
 }
 
